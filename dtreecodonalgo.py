@@ -1,5 +1,5 @@
 #Author EWTDTHK
-#The algorithm will use 4 codon "lookbook" before the current codon position to be predicted or generated
+#The algorithm will use 4 codon "lookkback" before the current codon position to be predicted or generated
 #Instead of a algorithm build by hand this alogrithm use decision tree fitting in an attempt to build the logic behind 
 #the codonVaccine
 #this program takes as input the https://raw.githubusercontent.com/berthubert/bnt162b2/master/side-by-side.csv
