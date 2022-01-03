@@ -88,21 +88,21 @@ def readandtestdata(filename):
      feature_names.append("P"+str(i)+"_2")
   tree_data = tree.export_graphviz(clf1, out_file=None, 
                       feature_names=feature_names,  
-                      class_names=["G","A","C","T"],  
+                      class_names=["A","C","G","T"],  
                       filled=True, rounded=True,  
                       special_characters=True)
   graph=graphviz.Source(tree_data)
   graph.render("CV1")
   tree_data = tree.export_graphviz(clf2, out_file=None, 
                       feature_names=feature_names,  
-                      class_names=["G","A","C","T"],  
+                      class_names=["A","C","G","T"],  
                       filled=True, rounded=True,  
                       special_characters=True)
   graph=graphviz.Source(tree_data)
   graph.render("CV2")
   tree_data = tree.export_graphviz(clf3, out_file=None, 
                       feature_names=feature_names,  
-                      class_names=["G","A","C","T"],  
+                      class_names=["A","C","G","T"],  
                       filled=True, rounded=True,  
                       special_characters=True)
   graph=graphviz.Source(tree_data)
